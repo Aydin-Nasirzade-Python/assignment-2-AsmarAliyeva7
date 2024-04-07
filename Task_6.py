@@ -7,7 +7,6 @@ def main():
       print("The point is in the shaded area")
   else:
       print("The point is not in the shaded area"
- 
   pass
 
 if __name__ == "__main__":
