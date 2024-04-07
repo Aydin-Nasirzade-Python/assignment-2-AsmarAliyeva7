@@ -3,7 +3,7 @@
 def main():
   w=int(input("Enter the wavelength in nm: "))
   if w>=380 and w<450:
-      print("The relevant color is Violent")
+      print("The relevant color is Violet")
   elif w>=450 and w<495:
       print("The relevant color is Blue")
   elif w>=495 and w<570:
@@ -16,6 +16,7 @@ def main():
       print("The relevant color is Red")
   else:
       print("Invalid input!")
+ 
   
   
   pass
