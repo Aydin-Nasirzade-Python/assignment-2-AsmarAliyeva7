@@ -27,7 +27,7 @@ def main():
   elif a%12==6:
       print(f"{a} is the year of the Tiger")
   else:
-      print(f"{a} is the year of the Tiger")
+      print(f"{a} is the year of the Hare")
 
     
   
