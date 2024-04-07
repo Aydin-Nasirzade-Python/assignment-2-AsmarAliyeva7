@@ -2,7 +2,7 @@
 
 def main():
   m=input("Enter a month [ex. March]: ")
-  d=input("Enter the day [ex. 12]: ")
+  d=float(input("Enter the day [ex. 12]: "))
   a=['March','April','May','June','July','August','September','October','November','December','January','February']
   if d>31 or d%1!=0 or d<=0 or m not in a:
       print("Either a month or a day is invalid")
